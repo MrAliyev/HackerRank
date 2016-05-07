@@ -26,6 +26,8 @@
 
   On a new line for each query, print Not foundNot found if the name has no corresponding entry in the phone book; otherwise, print the full namename and phoneNumberphoneNumber in the format name=phoneNumbername=phoneNumber.
 
+ * ---------------------------------------------
+
   Sample Input
 
   3
@@ -35,6 +37,10 @@
   sam
   edward
   harry
+
+
+ * ---------------------------------------------
+
   Sample Output
 
   sam=99912222

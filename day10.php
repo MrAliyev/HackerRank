@@ -17,19 +17,28 @@
   Output Format
 
   Print a single base-1010 integer denoting the maximum number of consecutive 11's in the binary representation of nn.
-
+ 
+ * ---------------------------------------------
   Sample Input 1
 
   5
-  Sample Output 1
+  
+ * ---------------------------------------------
+ Sample Output 1
 
   1
+
+ * --------------------------------------------- 
   Sample Input 2
 
   13
+ 
+ * ---------------------------------------------
   Sample Output 2
 
   2
+  
+ * --------------------------------------------- 
   Explanation
 
   Sample Case 1:

@@ -24,12 +24,19 @@
 
   Print a single integer denoting N!N!.
 
+ * ---------------------------------------------
   Sample Input
 
   3
+
+ * ---------------------------------------------
   Sample Output
 
   6
+
+
+
+ * ---------------------------------------------
   Explanation
 
   Consider the following steps:

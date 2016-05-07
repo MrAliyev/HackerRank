@@ -22,12 +22,14 @@
 
   For each String SjSj (where 0≤j≤T−10≤j≤T−1), print SjSj's even-indexed characters, followed by a space, followed by SjSj's odd-indexed characters.
 
-  -----------------------------------------
+  -------------------------------------------
   Sample Input
 
   2
   Hacker
   Rank
+ 
+ * ------------------------------------------
   Sample Output
 
   Hce akr

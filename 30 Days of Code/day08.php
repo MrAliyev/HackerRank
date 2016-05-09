@@ -2,7 +2,7 @@
 
 /*
   Objective
-  Today, we're learning about Key-Value pair mappings using a Map or Dictionary data structure. Check out the Tutorial tab for learning materials and an instructional video!
+  Today, we're learning about Key-Value pair mappings using a Map or Dictionary data structure.
 
   Task
   Given NN names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for; for each namename queried, print the associated entry from your phone book (in the form name=phoneNumbername=phoneNumber) or Not foundNot found if there is no entry for namename.

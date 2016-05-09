@@ -81,4 +81,3 @@ function printChars($string) {
 }
 
 fclose($_fp);
-?>

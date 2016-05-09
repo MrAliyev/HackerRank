@@ -47,5 +47,4 @@ for ($i = 0, $len = count($arr); $i < $len; $i++) {
 }
 
 print implode(" ", $reverse);
-?>
 

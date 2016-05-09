@@ -91,34 +91,18 @@ for ($arr_i = 0; $arr_i < 6; $arr_i++) {
 $rowSum = 0;
 $sum = [];
 
-for ($a = 0, $len = count($arr); $a < $len; $a++) {
-    for ($i = 0; $i < $len - 2; $i++) {
+for ($a = 0, $len = count($arr) - 2; $a < $len; $a++) {
+    for ($i = 0; $i < $len; $i++) {
         for ($j = $i; $j < $i + 3; $j++) {
+            //Sum of top 3 elemets
             $rowSum += $arr[$a][$j];
+            //Sum of top and bottom 3 elemets
+            $rowSum += $arr[$a + 2][$j];
         }
-        $sum[] = $rowSum;
+        //Sum of top, bottom and middle elements
+        $sum[] = $rowSum + $arr[$a + 1][$i + 1];
         $rowSum = 0;
-    }
-
-    if ($a > 0 && $a < 5) {
-        for ($x = 1; $x < count($arr[$a]) - 1; $x++, $cnt++) {
-            $sum[$cnt] += $arr[$a][$x];
-        }
     }
 }
 
-//foreach ($arr as $row) {
-//    for ($i = 0, $len = count($row) - 2; $i < $len; $i++) {
-//        for ($j = $i; $j < $i + 3; $j++) {
-//            $rowSum += $row[$j];
-//        }
-//        $sum[] = $rowSum;
-//        $rowSum = 0;
-//    }
-//
-//    for ($x = 0, $len = count($sum); $x < $len; $x++) {
-//        $sum[$x] += $arr[$a + 1][$a + 1];
-//    }
-//}
-
-print_r($sum);
+print_r(max($sum));

@@ -1,13 +1,12 @@
-#Task: 30 Days of Code Challenges
-Complete tasks for all 30 days!
+#Task: HackerRank Code Challenges
 
 The goals are:
-* Complete the task for the day
-* Improve coding skills with 30 Days of Code
+* Complete tasks
+* Improve algorithmic thinking
+* Improve coding skills
 
 #Rules:
-* A new challenge is unlocked daily
-* Read the description and solve the challenge
+* Write solutions for challenges available
 
-30 Days of Code is an opportunity for you to learn how to code or brush up on your fundamentals. Each day, you’ll unlock a new challenge and a corresponding video tutorial to help you learn.
-The tutorial is Java-based, but you can also choose other popular languages to submit your solution. Topics include if-else statements, recursion, data structures and more.
+#What is HackerRank?
+HackerRank is a site for hackers from all over the world to solve programming problems in different CS domains like algorithms, machine learning and artificial intelligence, and to excel in different programming paradigms like functional programming.

@@ -96,7 +96,7 @@ for ($a = 0, $len = count($arr) - 2; $a < $len; $a++) {
         for ($j = $i; $j < $i + 3; $j++) {
             //Sum of top 3 elemets
             $rowSum += $arr[$a][$j];
-            //Sum of top and bottom 3 elemets
+            //Sum of top and bottom 3 elements
             $rowSum += $arr[$a + 2][$j];
         }
         //Sum of top, bottom and middle elements

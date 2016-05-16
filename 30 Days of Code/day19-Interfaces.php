@@ -36,5 +36,5 @@ if ($myCalculator instanceof AdvancedArithmetic) {//checking if Calculator has i
     $sum = $myCalculator->divisorSum($n);
     echo "I implemented: AdvancedArithmetic\n" . $sum;
 } else {
-    echo "Wrong answer"; // You will get this output if you dont implement
+    echo "Wrong answer";
 }

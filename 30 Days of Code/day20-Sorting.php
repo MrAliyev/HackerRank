@@ -35,6 +35,6 @@ for ($i = 0; $i < $n; $i++) {
     }
 }
 
-print "Array is sorted in $numberOfSwaps swaps.\n";
-print "First Element: $a[0]\n";
-print "Last Element: {$a[count($a) - 1]}\n";
+print 'Array is sorted in ' . $numberOfSwaps . "swaps.\n";
+print 'First Element: ' . $a[0]. "\n";
+print 'Last Element: ' . $a[$n - 1] . "\n";

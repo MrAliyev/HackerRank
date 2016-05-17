@@ -16,16 +16,16 @@ where $firstElement is the first element in the sorted array.
 where $LastElement is the last element in the sorted array.
  */
 
-$handle = fopen("php://stdin", "r");
-fscanf($handle, "%d", $n);
+$handle = fopen ("php://stdin","r");
+fscanf($handle,"%d",$n);
 $a_temp = fgets($handle);
-$a = explode(" ", $a_temp);
-array_walk($a, 'intval');
+$a = explode(" ",$a_temp);
+array_walk($a,'intval');
 
 $numberOfSwaps = 0;
 
-for ($i = 0; $i < $n; $i++) {
-    for ($j = 0; $j < $n - 1; $j++) {
+for ($i = 0; $i < $n; $i++) {    
+    for ($j = 0; $j < $n - 1 - $i; $j++) {
         if ($a[$j] > $a[$j + 1]) {
             $tmp = $a[$j];
             $a[$j] = $a[$j + 1];
@@ -35,6 +35,7 @@ for ($i = 0; $i < $n; $i++) {
     }
 }
 
-print 'Array is sorted in ' . $numberOfSwaps . "swaps.\n";
-print 'First Element: ' . $a[0]. "\n";
-print 'Last Element: ' . $a[$n - 1] . "\n";
+print 'Array is sorted in ' . $numberOfSwaps . " swaps.\n";
+print 'First Element: ' . $a[0] . "\n";
+print 'Last Element: ' . $a[$n-1] . "\n";
+

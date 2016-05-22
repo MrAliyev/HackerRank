@@ -12,6 +12,7 @@ while ($n = fgets($_fp)) {
     echo isPrime($n);
 }
 
+// O(sqrt(n)) algorithm, primes are of the form 6k ± 1, with the exception of 2 and 3
 function isPrime($n) {
     if ($n == 2 || $n == 3) {
         return "Prime\n";

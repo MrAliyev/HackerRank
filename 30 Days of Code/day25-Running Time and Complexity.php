@@ -9,24 +9,24 @@ $_fp = fopen("php://stdin", "r");
 $d = fgets($_fp);
 
 while ($n = fgets($_fp)) {
-    echo isPrime($n);
+    echo isPrime($n) ? "Prime" : "Not prime";
 }
 
 // O(sqrt(n)) algorithm, primes are of the form 6k ± 1, with the exception of 2 and 3
 function isPrime($n) {
     if ($n == 2 || $n == 3) {
-        return "Prime\n";
+        return true;
     }
     if ($n == 1 || $n % 2 == 0 || $n % 3 == 0) {
-        return "Not prime\n";
+        return false;
     }
     $i = 5;
 
     while ($i * $i <= $n) {
         if ($n % $i == 0 || $n % ($i + 2) == 0) {
-            return "Not prime\n";
+            return false;
         }
         $i+=6;
     }
-    return "Prime\n";
+    return true;
 }
